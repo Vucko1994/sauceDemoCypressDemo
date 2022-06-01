@@ -1,0 +1,27 @@
+{
+  "username": "standard_user",
+  "password": "secret_sauce",
+  "wrongUsername": "Vucko",
+  "wrongPassword": "12345",
+  "signedInHomeURL": "/inventory.html",
+  "shopingCartURL": "/cart.html",
+  "aboutURL": "https://saucelabs.com/",
+  "loginURL": "https://www.saucedemo.com/",
+  "checkoutCompleteURL": "/checkout-complete.html",
+  "incorectCredentialsNotificationText": "Epic sadface: Username and password do not match any user in this service",
+  "orderDispathedText": "Your order has been dispatched, and will arrive just as fast as the pony can get there!",
+  "backHomeBtnText": "Back Home",
+  "sortingSelectPriceLowToHigh": "hilo",
+  "completeOrderText": "THANK YOU FOR YOUR ORDER",
+  "firstName": "Marko",
+  "lastName": "Vuckovic",
+  "postalCode": "18000",
+  "itemsNamesList": [
+    "Sauce Labs Backpack",
+    "Sauce Labs Bike Light",
+    "Sauce Labs Bolt T-Shirt",
+    "Sauce Labs Fleece Jacket",
+    "Sauce Labs Onesie",
+    "Test.allTheThings() T-Shirt (Red)"
+  ]
+}
