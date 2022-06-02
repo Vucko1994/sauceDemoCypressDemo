@@ -74,6 +74,13 @@ describe('Logged in tests', () => {
         cy.url().should('deep.equal', sauceDemoData.loginURL)
     })
 
+    it('Check "BACK TO PRODUCTS" button', () => {
+        pageObjects.getItemNamesList().eq(1).click()
+        pageObjects.getBackToProductsBtn().click()
+        cy.url().should('include', sauceDemoData.signedInHomeURL)
+        pageObjects.getShopingCartBtn().should('be.visible')
+    })
+
     it('Ordering item from shop', () => {
         pageObjects.getAddToCartBtnList().eq(3).click();
         pageObjects.getShopingCartBadge().should('be.visible')

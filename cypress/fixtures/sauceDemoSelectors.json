@@ -25,5 +25,6 @@
     "orderDispathedText": ".complete-text",
     "ponyExpressImage": "img[alt='Pony Express']",
     "backHomeBtn": "button[name='back-to-products']",
-    "priceOnProductPage": ".inventory_details_price"
+    "priceOnProductPage": ".inventory_details_price",
+    "backToProductsBtn": "button[name='back-to-products']"
 }

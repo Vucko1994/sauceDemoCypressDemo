@@ -112,5 +112,9 @@ class PageObjects {
     getPriceOnProductPage() {
         return cy.get(sauceDemoSelectors.priceOnProductPage)
     }
+
+    getBackToProductsBtn() {
+        return cy.get(sauceDemoSelectors.backToProductsBtn)
+    }
 }
 export default PageObjects
